@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . /app
 
 # Exposer le port 31201 sur le conteneur
-EXPOSE 31201
+EXPOSE 5000
 
 # Définir la commande par défaut à exécuter lors du démarrage du conteneur
 CMD ["python", "app.py"]
